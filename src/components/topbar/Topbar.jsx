@@ -8,11 +8,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Abishake
+            Hello World!
           </a>
           <div className="itemContainer">
             <LocalPhoneIcon className="icon" />
-            <span>+246 13579</span>
+            <span>+44 0123456789</span>
           </div>
           <div className="itemContainer">
             <AlternateEmailIcon className="icon" />
