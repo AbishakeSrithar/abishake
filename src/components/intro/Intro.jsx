@@ -27,9 +27,24 @@ export default function Intro() {
               }}
               multiText={[
                 "that's not why we're here",
-                "I'm a Programmer"
+                "I'm a Programmer!"
               ]}
-              multiTextDelay={1000}
+              multiTextDelay={3000}
+              typeSpeed={30}
+            />
+            </span>
+            <span><TypeWriterEffect
+              textStyle={{
+                fontFamily: "Roboto",
+                color: "#00B8D8",
+                fontWeight: 500,
+                fontSize: "1.5em",
+              }}
+              multiText={[
+                "**************",
+                "This is my first website!"
+              ]}
+              multiTextDelay={10000}
               typeSpeed={30}
             />
             </span>

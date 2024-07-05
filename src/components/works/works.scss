@@ -1,3 +1,106 @@
 .works {
   background-color: lightcoral;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 70px;
+    position: absolute;
+    cursor: pointer;
+
+    &.left {
+      left: 100px;
+      top: 380px;
+      transform: rotate(180deg);
+    }
+
+    &.right {
+      right: 100px;
+      top: 380px;
+    }
+  }
+
+  .slider {
+    height: 550px;
+    margin-top: 15vh;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 1280px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .imgContainer {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: cornflowerblue;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 25px;
+              }
+            }
+
+            h2 {
+              font-size: 30px;
+            }
+            p {
+              font-size: 16px;
+            }
+            span {
+              font-size: 22px;
+              font-weight: 600;
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 700px;
+            transform: rotate(-15deg);
+          }
+        }
+      }
+    }
+  }
 }
