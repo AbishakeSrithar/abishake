@@ -79,7 +79,7 @@ export default function Portfolio() {
         </div>
         ))}
         <div className="item">
-          <img className="chess" src="../../assets/chess.png" alt="Chess App" />
+          <img className="chess" src="abishake/assets/chess.png" alt="Chess App" />
           <h3>Chess App</h3>
         </div>
         <div>

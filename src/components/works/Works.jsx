@@ -6,7 +6,7 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/deadcells.jpg",
+      icon: "./abishake/assets/deadcells.jpg",
       title: "Dead Cells",
       desc: `Why do you even have a domain?! Well... abishake.com looked
     kinda cool and it wasn't super expensive. Nice little Easter
@@ -14,25 +14,25 @@ export default function Works() {
     to get a lot better at FrontEnd before I consider doing
     something with this. I needed a really big slab of text here,
     thank you for reading, also, have you played Dead Cells?`,
-      img: "./assets/deadcells.jpg",
+      img: "./abishake/assets/deadcells.jpg",
     },
     {
       id: "2",
-      icon: "./assets/mobile.png",
+      icon: "./abishake/assets/mobile.png",
       title: "Web Design",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
     {
       id: "3",
-      icon: "./assets/globe.png",
+      icon: "./abishake/assets/globe.png",
       title: "Mobile Application",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "4",
-      icon: "./assets/writing.png",
+      icon: "./abishake/assets/writing.png",
       title: "Branding",
       desc: "if you go right once more...",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
@@ -69,8 +69,8 @@ export default function Works() {
           </div>
         ))}
       </div>
-      <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
-      <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")} />
+      <img src="./abishake/assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
+      <img src="./abishake/assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")} />
     </div>
   );
 }
