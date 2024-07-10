@@ -1,7 +1,26 @@
 import "./intro.scss";
 import TypeWriterEffect from "react-typewriter-effect";
+import React, { useState, useEffect } from 'react';
 
 export default function Intro() {
+  const DelayedImage = () => {
+    const [showImage, setShowImage] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowImage(true);
+        }, 12000); // delay in milliseconds
+
+        return () => clearTimeout(timer); // Cleanup the timer on component unmount
+    }, []);
+
+    return (
+        <div>
+            {showImage && <img src="assets/spongebob.webp" alt="Delayed Spongebob Meme" />}
+        </div>
+    );
+};
+
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -23,7 +42,7 @@ export default function Intro() {
                 fontFamily: "Roboto",
                 color: "#00B8D8",
                 fontWeight: 500,
-                fontSize: "1.5em",
+                fontSize: "1em",
               }}
               multiText={[
                 "that's not why we're here",
@@ -33,20 +52,21 @@ export default function Intro() {
               typeSpeed={30}
             />
             </span>
-            <span><TypeWriterEffect
+            <span className="mobile"><TypeWriterEffect
               textStyle={{
                 fontFamily: "Roboto",
                 color: "#00B8D8",
                 fontWeight: 500,
-                fontSize: "1.5em",
+                fontSize: "1em",
               }}
               multiText={[
-                "**************",
-                "This is my first website!"
+                "",
+                "iTs NoT AlIgNeD pRopErlY!"
               ]}
               multiTextDelay={10000}
               typeSpeed={30}
             />
+            <DelayedImage/>
             </span>
           </h3>
         </div>

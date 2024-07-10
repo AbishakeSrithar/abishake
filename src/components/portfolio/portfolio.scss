@@ -1,21 +1,48 @@
 @import "../../global.scss";
 
 .portfolio {
-  background-color: lightskyblue;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 
   h1 {
     font-size: 50px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    @include mobile {
+      font-size: 40px;
+    }
+  }
+  a {
+    @include mobile {
+      display: none;
+    }
+  }
+  h2 {
+    @include mobile {
+      display: none;
+    }
+  }
+  h3 {
+    @include mobile {
+      display: none;
+    }
   }
 
   ul {
-    margin: 20px;
+    margin: 10px;
     padding: 0;
     list-style: none;
     display: flex;
+
+    @include mobile {
+      font-size: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .container {
@@ -25,9 +52,14 @@
     justify-content: center;
     flex-wrap: wrap;
 
+    @include mobile {
+      width: 100%;
+      margin-top: 30px;
+    }
+
     .item {
-      width: 222px;
-      height: 150px;
+      width: 380px;
+      height: 280px;
       border-radius: 20px;
       border: 1px solid lightgray;
       margin: 10px 20px;
@@ -37,8 +69,14 @@
       color: white;
       position: relative;
       overflow: hidden;
-      transition: all .5s;
+      transition: all 0.5s;
       cursor: pointer;
+
+      @include mobile {
+        width: 150px;
+        margin-bottom: 50px;
+        height: 100px;
+      }
 
       h3 {
         position: absolute;
@@ -54,7 +92,7 @@
 
       &:hover {
         background-color: $mainColor;
-        
+
         img {
           opacity: 0.2;
           z-index: 0;

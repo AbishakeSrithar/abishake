@@ -1,14 +1,30 @@
+@import "../../global.scss";
+
 .works {
-  background-color: lightcoral;
+  background-color: rgb(141, 197, 219) ;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   position: relative;
+
+  h1 {
+    margin-bottom: 75vh;
+    font-size: 80px;
+    z-index: 5;
+
+    @include mobile {
+      display: none;
+    }
+  }
 
   .arrow {
     height: 70px;
     position: absolute;
     cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
 
     &.left {
       left: 100px;
@@ -24,11 +40,16 @@
 
   .slider {
     height: 550px;
-    margin-top: 15vh;
     display: flex;
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+
+    @include mobile {
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     .container {
       width: 100vw;
@@ -44,6 +65,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+          width: 90%;
+          height: 80%;
+          margin: 5px 0;
+        }
 
         .left {
           flex: 4;
@@ -68,6 +95,10 @@
               align-items: center;
               justify-content: center;
 
+              @include mobile {
+                display: none;
+              }
+
               img {
                 width: 25px;
               }
@@ -75,15 +106,24 @@
 
             h2 {
               font-size: 30px;
+              @include mobile {
+                font-size: 10px;
+              }
             }
             p {
               font-size: 16px;
+              @include mobile {
+                display: none;
+              }
             }
             span {
               font-size: 22px;
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
+              @include mobile {
+                font-size: 10px;
+              }
             }
           }
         }
