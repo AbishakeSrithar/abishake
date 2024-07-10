@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abishake/static/css/main.e3dded44.css",
+    "main.js": "/abishake/static/js/main.0ed1bd46.js",
+    "index.html": "/abishake/index.html",
+    "main.e3dded44.css.map": "/abishake/static/css/main.e3dded44.css.map",
+    "main.0ed1bd46.js.map": "/abishake/static/js/main.0ed1bd46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3dded44.css",
+    "static/js/main.0ed1bd46.js"
+  ]
+}
