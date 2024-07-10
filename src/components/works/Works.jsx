@@ -6,7 +6,7 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "abishake/assets/deadcells.jpg",
+      icon: "assets/deadcells.jpg",
       title: "Dead Cells",
       desc: `Why do you even have a domain?! Well... abishake.com looked
     kinda cool and it wasn't super expensive. Nice little Easter
@@ -14,25 +14,25 @@ export default function Works() {
     to get a lot better at FrontEnd before I consider doing
     something with this. I needed a really big slab of text here,
     thank you for reading, also, have you played Dead Cells?`,
-      img: "abishake/assets/deadcells.jpg",
+      img: "assets/deadcells.jpg",
     },
     {
       id: "2",
-      icon: "abishake/assets/mobile.png",
+      icon: "assets/mobile.png",
       title: "Web Design",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
     {
       id: "3",
-      icon: "abishake/assets/globe.png",
+      icon: "assets/globe.png",
       title: "Mobile Application",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "4",
-      icon: "abishake/assets/writing.png",
+      icon: "assets/writing.png",
       title: "Branding",
       desc: "if you go right once more...",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
@@ -53,7 +53,7 @@ export default function Works() {
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.icon} alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/${d.icon}`} alt="" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
@@ -63,14 +63,14 @@ export default function Works() {
                 </div>
               </div>
               <div className="right">
-                <img src={d.img} alt="" />
+                <img src={d.img.startsWith("https") ? d.img : `${process.env.PUBLIC_URL}/${d.img}`} alt="" />
               </div>
             </div>
           </div>
         ))}
       </div>
-      <img src="abishake/assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
-      <img src="abishake/assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")} />
+      <img src={`${process.env.PUBLIC_URL}/assets/arrow.png`} className="arrow left" alt="" onClick={()=>handleClick("left")}/>
+      <img src={`${process.env.PUBLIC_URL}/assets/arrow.png`} className="arrow right" alt="" onClick={()=>handleClick("right")} />
     </div>
   );
 }

@@ -16,7 +16,7 @@ export default function Intro() {
 
     return (
         <div>
-            {showImage && <img src="abishake/assets/spongebob.webp" alt="Delayed Spongebob Meme" />}
+            {showImage && <img src={`${process.env.PUBLIC_URL}/assets/spongebob.webp`} alt="Delayed Spongebob Meme" />}
         </div>
     );
 };
@@ -26,7 +26,7 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="abishake/assets/abishake.png"
+            src={`${process.env.PUBLIC_URL}/assets/abishake.png`}
             alt="Baby Groot smiling with finger on Blow Up Everything Button"
           />
         </div>
@@ -71,7 +71,7 @@ export default function Intro() {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="abishake/assets/down.png" alt="down arrow"/>
+          <img src={`${process.env.PUBLIC_URL}/assets/down.png`} alt="down arrow"/>
         </a>
       </div>
     </div>
