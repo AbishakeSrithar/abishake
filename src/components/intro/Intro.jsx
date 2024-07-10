@@ -34,7 +34,7 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h2>Hi there, I'm</h2>
-          <h1>Abishake Srithar</h1>
+          <h1>Abishake</h1>
           <h3>
             Ignore the bad photoshop,{" "}
             <span><TypeWriterEffect
