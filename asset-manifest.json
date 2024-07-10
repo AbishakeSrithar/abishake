@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/abishake/static/css/main.e3dded44.css",
-    "main.js": "/abishake/static/js/main.6f4c937b.js",
+    "main.js": "/abishake/static/js/main.fcfabeda.js",
     "index.html": "/abishake/index.html",
     "main.e3dded44.css.map": "/abishake/static/css/main.e3dded44.css.map",
-    "main.6f4c937b.js.map": "/abishake/static/js/main.6f4c937b.js.map"
+    "main.fcfabeda.js.map": "/abishake/static/js/main.fcfabeda.js.map"
   },
   "entrypoints": [
     "static/css/main.e3dded44.css",
-    "static/js/main.6f4c937b.js"
+    "static/js/main.fcfabeda.js"
   ]
 }
