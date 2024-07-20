@@ -9,8 +9,7 @@ export default function Works() {
       icon: "assets/github.png",
       title: "Chess Backend",
       desc: `This project gave me an introduction to several Java Design Patterns such as Builders, Factories and got me started with Swing.
-      I decided after this to read Head First Java and Design Patterns to see what else there was out there. My next goal is to make the board game Go
-      from scratch!`,
+      I decided to read Head First Java and Design Patterns afterwards to see what else was out there. My next goal is to make the board game, Go!`,
       img: "assets/chess.png",
       link: "https://github.com/AbishakeSrithar/ChessProject"
     },
@@ -18,7 +17,7 @@ export default function Works() {
       id: "2",
       icon: "assets/github.png",
       title: "Personal Website",
-      desc: `I've always wanted to make a personal website and with a domain name like this one,
+      desc: `I've always wanted to make a personal website and with a domain name like this,
       it was finally time. This project gave me a look into the Front End side of things, with Javascript, React and Sass.`,
       img: "assets/personalwebsite.png",
       link: "https://github.com/AbishakeSrithar/abishake"
@@ -37,7 +36,7 @@ export default function Works() {
       id: "4",
       icon: "assets/codewarslogo.svg",
       title: "Codewars",
-      desc: `Codewars is how I started learning programming and holds a special place in my heart. It amified coding with lots of mathsy puzzles! Next step is to improve my Data Structures & Algorithm knowledge and continue
+      desc: `Codewars is how I started learning programming and holds a special place in my heart. It gamified coding with lots of mathsy puzzles! Next step is to improve my Data Structures & Algorithm knowledge and continue
       tackling problems on Leetcode!`,
       img: "assets/codewars.png",
       link: "https://www.codewars.com/users/AbishakeSrithar"
