@@ -1,158 +1,165 @@
-export const featuredPortfolio = [
+export const featuredVideos = [
   {
     id: 1,
-    title: "Social Media App",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
+    title: "Valorant",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/_v_Gpn70BSQ?si=aqNh42C1luUD4jGT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+    },
   {
     id: 2,
-    title: "Rampa UI Design",
-    img:
-      "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+    title: "Fortnite",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/wTu4QSz_QJ0?si=QvmG46AHd4NQtLMB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
   },
   {
     id: 3,
-    title: "E-commerce Web Design",
-    img:
-      "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    title: "Fall Guys",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/1nElD_gLE9o?si=gVHqSPvUpLwLwYcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
   },
   {
     id: 4,
-    title: "Relax Mobile App",
-    img:
-      "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+    title: "Minecraft",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/dY_sSaFejxI?si=1bAl7IME0lwEUTW1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
   },
   {
     id: 5,
-    title: "Hero Web Design",
-    img:
-      "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    title: "Call Of Duty",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/0exbCh8sKz0?si=wjfoXvE01lKypi7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+  },
+  {
+    id: 6,
+    title: "HellDivers",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/jafPUwXoUOs?si=xYoznPfQ_75CZJCd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
   },
 ];
 
-export const webPortfolio = [
+export const valoVideos = [
   {
     id: 1,
-    title: "Web Social Media App",
-    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    title: "Valorant - Funny Moments",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/KoV606NOvUM?si=_gpksmE4FVvBZx_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 2,
-    title: "Web Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+    title: "Valorant - Highlights",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/Ec4FxGDUUM0?si=y3j7b26axU6QT7QR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 3,
-    title: "Web E-commerce Design",
-    img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+    title: "Valorant - Firing Squad",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/CWS4o6LEvUQ?si=kp2cbanbZrOMVj9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 4,
-    title: "Web Relax App",
-    img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+    title: "Valorant - Messing Around",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/sM5mcLibpmw?si=eYrrEVhw-O9Iyakd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 5,
-    title: "Web Design",
-    img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
+    title: "Valorant - Knifed an Immortal",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/us71WgK1UIA?si=j7sXq0sTug0Ocee0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  },
+  {
+    id: 6,
+    title: "Valorant - Montage and Funny Moments",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/_v_Gpn70BSQ?si=5nRUM4OTvost-ozb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
 ];
 
-export const mobilePortfolio = [
+export const fortVideos = [
   {
     id: 1,
-    title: "Mobile Social Media App",
-    img:
-      "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+    title: "Fortnite - Hello Darkness",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/bAc9-e7nVUQ?si=aBzpxqyZEcP9KvGv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 2,
-    title: "Web E-commerce Design",
-    img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+    title: "Fortnite - OG Season",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/tU_Fvmqf9ww?si=VTSTQ1xeKI2_wTXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 3,
-    title: "Mobile E-commerce Design",
-    img:
-      "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+    title: "Fortnite - The Oldest of Clips",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/wmUl96hXzGU?si=mJlpWCoalCqkJ6Aa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 4,
-    title: "Mobile Relax App",
-    img:
-      "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+    title: "Fortnite - UFOs and Sharks",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/jQ2dV-Ppi5M?si=Kw5zExRWo_slWiO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 5,
-    title: "Mobile Hero Design",
-    img:
-      "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
+    title: "Fortnite - The Lonely Balloon Boy",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/F6cBunprdDg?si=g8hv6vTtuNKdAlg9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  },
+  {
+    id: 6,
+    title: "Fortnite - The Lonely Balloon Boy",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/f_quWPxmgnc?si=IH4Ee2T6bMoIYWlV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
 ];
 
-export const backendPortfolio = [
+export const codVideos = [
   {
     id: 1,
-    title: "Design Social Media App",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "COD - Super Easter Egg",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/gmpognNyVeM?si=JllcWRmJrxH1xZdj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 2,
-    title: "Design Rampa UI Design",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "COD - Content Creators",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/0exbCh8sKz0?si=Se1LdGkIGUU_4MmT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 3,
-    title: "Design E-commerce Web Design",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "COD - How Not To Play Origins",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/nYAQy4UoxvU?si=ZPyhMWq0aDYFXxAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 4,
-    title: "Design Relax Mobile App",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "COD - Killing Spratt",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/ttVXqgTbJes?si=RWhy5ODAMMfk6xqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 5,
-    title: "Design Keser Web Design",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "COD - MWR Ninja Defuses",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/RMuLq6gSP5A?si=k4T2rjfaWzwHrgSf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  },
+  {
+    id: 6,
+    title: "COD - Delete The Game",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/X66puQ9Lxqs?si=MhJrzXGkHLxr4qjr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
 ];
 
-export const scraperPortfolio = [
+export const otherVideos = [
   {
     id: 1,
-    title: "Content Social Media App",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    
+    title: "Garry's Mod - Horror Map",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/8qwMeLH8dZ8?si=QJlNUf9DdytwwAt7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 2,
-    title: "Content Rampa UI Design",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Phasmophobia - Shenanigans with Rez",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/8zR8SEUr_TA?si=A7AV84UR_p1DeNG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 3,
-    title: "Content E-commerce Web Design",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Among Us - Liars Everywhere",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/9x0NhTc9NIE?si=ilFOqZJraiddnHvV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 4,
-    title: "Content Relax Mobile App",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "The Forest - Survival Of The Fittest",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/BLPdvGmxNE0?si=_s2VlsBOfXSwWaBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
   {
     id: 5,
-    title: "Content Keser Web Design",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Deep Rock Galactic - FOR CARL!!",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/E4oYfE_MGx8?si=dRatzL0LJ5cE_JjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  },
+  {
+    id: 6,
+    title: "Minecraft - SPIDERS!",
+    img: <iframe width="480" height="270" src="https://www.youtube.com/embed/P2SlpWHuyNE?si=l1JQzgzDnnSYckpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   },
 ];

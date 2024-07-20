@@ -12,10 +12,10 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src={`${process.env.PUBLIC_URL}/assets/shake.svg`} alt="a" />
+        <img src={`${process.env.PUBLIC_URL}/assets/contact.png`} alt="a" />
       </div>
       <div className="right">
-        <h2>Contact.</h2>
+        <h2>Contact Me</h2>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
@@ -30,10 +30,9 @@ export default function Contact() {
                 fontSize: "1.5em",
               }}
               multiText={[
-                "Whooooooosh!",
                 "mail sent",
-                "No I'm jk, this isn't hooked up to anything :)",
-                "Really enjoying this TypeWrite animation tho!",
+                "Jk! :P",
+                "Discord: lil_shakee",
               ]}
               multiTextDelay={2000}
               typeSpeed={30}

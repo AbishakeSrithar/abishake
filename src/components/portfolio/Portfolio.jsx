@@ -2,11 +2,11 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import { useEffect, useState } from "react";
 import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  backendPortfolio,
-  scraperPortfolio,
+  featuredVideos,
+  valoVideos,
+  fortVideos,
+  codVideos,
+  otherVideos,
 } from "../../data";
 
 export default function Portfolio() {
@@ -18,82 +18,64 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "valo",
+      title: "Valorant",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "fort",
+      title: "Fortnite",
     },
     {
-      id: "backend",
-      title: "Backend",
+      id: "cod",
+      title: "Call Of Duty",
     },
     {
-      id: "scraper",
-      title: "Scraper",
+      id: "other",
+      title: "Other Games",
     },
   ];
 
   useEffect(() => {
     switch (selected) {
       case "featured":
-        setData(featuredPortfolio);
+        setData(featuredVideos);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "valo":
+        setData(valoVideos);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "fort":
+        setData(fortVideos);
         break;
-      case "backend":
-        setData(backendPortfolio);
+      case "cod":
+        setData(codVideos);
         break;
-      case "scraper":
-        setData(scraperPortfolio);
+      case "other":
+        setData(otherVideos);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(featuredVideos);
     }
   }, [selected]);
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
-      
+      <h1>Games</h1>
       <ul>
         {list.map((item) => (
-          <PortfolioList
-            title={item.title}
-            active={selected === item.id}
-            setSelected={setSelected}
-            id={item.id}
-          />
+          <div className="tabContainer"><PortfolioList
+          title={item.title}
+          active={selected === item.id}
+          setSelected={setSelected}
+          id={item.id}
+        /></div>
         ))}
       </ul>
       <div className="container">
         {data.map((d) => (
           <div className="item">
-          <img src={d.img} alt="" />
-          <h3>{d.title}</h3>
-        </div>
+            <div className="embedYoutube">{d.img}</div>
+          </div>
         ))}
-        <div className="item">
-          <img className="chess" src={`${process.env.PUBLIC_URL}/assets/chess.png`} alt="Chess App" />
-          <h3>Chess App</h3>
-        </div>
-        <div>
-        <h2>In case it wasn't obvious, nothing here is real</h2>
-      <h3>Just wanted to follow along a quick React project</h3>
-      <h3>Thanks Lama Dev on YouTube! :)</h3>
-      <a href="https://www.youtube.com/watch?v=7WwtzsSHdpI&t=5940s&ab_channel=LamaDev">
-                  <span>The tutorial I followed to make the site</span>
-                </a>
-      <h3>and SuperSimpleDev too!</h3>
-      <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg&ab_channel=SuperSimpleDev">
-                  <span>How to get the website live</span>
-                </a>
-        </div>
       </div>
     </div>
   );

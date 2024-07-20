@@ -6,36 +6,41 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "assets/deadcells.jpg",
-      title: "Dead Cells",
-      desc: `Why do you even have a domain?! Well... abishake.com looked
-    kinda cool and it wasn't super expensive. Nice little Easter
-    Egg too if you found this by stalking my Github :P I'll have
-    to get a lot better at FrontEnd before I consider doing
-    something with this. I needed a really big slab of text here,
-    thank you for reading, also, have you played Dead Cells?`,
-      img: "assets/deadcells.jpg",
+      icon: "assets/github.png",
+      title: "Chess Backend",
+      desc: `This project gave me an introduction to several Java Design Patterns such as Builders, Factories and got me started with Swing.
+      I decided after this to read Head First Java and Design Patterns to see what else there was out there. My next goal is to make the board game Go
+      from scratch!`,
+      img: "assets/chess.png",
+      link: "https://github.com/AbishakeSrithar/ChessProject"
     },
     {
       id: "2",
-      icon: "assets/mobile.png",
-      title: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+      icon: "assets/github.png",
+      title: "Personal Website",
+      desc: `I've always wanted to make a personal website and with a domain name like this one,
+      it was finally time. This project gave me a look into the Front End side of things, with Javascript, React and Sass.`,
+      img: "assets/personalwebsite.png",
+      link: "https://github.com/AbishakeSrithar/abishake"
     },
     {
       id: "3",
-      icon: "assets/globe.png",
-      title: "Mobile Application",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      icon: "assets/github.png",
+      title: "Mini Games",
+      desc: `In case you couldn't tell already, I love games! Whenever I want to get to grips with a new language/software
+      the first thing I go and do is to go try make a basic game with it. I have made mini games in Python, Javascript, Java, C# (Unity)
+      and GDScript (Godot).`,
+      img: "assets/games.png",
+      link: "https://github.com/AbishakeSrithar/FirstGodotGame"
     },
     {
       id: "4",
-      icon: "assets/writing.png",
-      title: "Branding",
-      desc: "if you go right once more...",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      icon: "assets/codewarslogo.svg",
+      title: "Codewars",
+      desc: `Codewars is how I started learning programming and holds a special place in my heart. It amified coding with lots of mathsy puzzles! Next step is to improve my Data Structures & Algorithm knowledge and continue
+      tackling problems on Leetcode!`,
+      img: "assets/codewars.png",
+      link: "https://www.codewars.com/users/AbishakeSrithar"
     },
   ];
 
@@ -45,7 +50,7 @@ export default function Works() {
   }
   return (
     <div className="works" id="works">
-      <h1>Works</h1>
+      <h1>Code</h1>
       <div className="slider" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
         {data.map((d) => (
           <div className="container">
@@ -56,9 +61,11 @@ export default function Works() {
                     <img src={`${process.env.PUBLIC_URL}/${d.icon}`} alt="" />
                   </div>
                   <h2>{d.title}</h2>
+                  <br></br>
                   <p>{d.desc}</p>
-                  <a href="https://www.youtube.com/watch?v=gX4cGcwmdsY&ab_channel=IGN">
-                    <span>Link to the best trailer ever made</span>
+                  <a href={d.link}>
+                    <br></br>
+                    <span>Link to Project</span>
                   </a>
                 </div>
               </div>
