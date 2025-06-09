@@ -1,7 +1,7 @@
 {
   "name": "abishake",
   "version": "0.1.0",
-  "homepage": "http://abishake.com",
+  "homepage": "https://abishakesrithar.github.io/abishake/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
